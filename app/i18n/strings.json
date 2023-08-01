@@ -1,0 +1,26 @@
+{
+  "en": {
+    "km": "km",
+    "kcal": "kcal",
+    "step": "step",
+    "hello": "Hello, qi!",
+    "update": "Last update",
+    "mileage": "Mileage",
+    "animation": "animation",
+    "draw": "draw",
+    "view": "Viewing Widget documents",
+    "switch": "Please switch to Widget mode"
+  },
+  "zh": {
+    "km": "公里",
+    "kcal": "千卡",
+    "step": "步",
+    "hello": "你好, 七七!",
+    "update": "上次更新",
+    "mileage": "里程",
+    "animation": "动画",
+    "draw": "绘图",
+    "view": "查看 Widget 文档",
+    "switch": "请切换到 Widget 模式"
+  }
+}

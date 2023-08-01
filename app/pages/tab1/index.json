@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "@navTxtStyle",
+  "navigationBarTitleText": "Tab1",
+  "backgroundColor": "#F8F8F8",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "alarm": "/components/alarm/index"
+  }
+}

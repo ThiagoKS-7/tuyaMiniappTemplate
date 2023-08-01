@@ -1,0 +1,24 @@
+<view class="card-wrapper">
+  <view class="title">{{I18n.t('hello')}}</view>
+  <view class="time">{{I18n.t('update')}}: {{time}}</view>
+  <view class="content">
+    <view class="item border" bind:tap="jumpToH5">
+      <canvas
+        style="height: 172rpx; width: 172rpx;"
+        canvas-id="bu" 
+        ></canvas>
+        <view class="unit">{{I18n.t('step')}}</view>
+    </view>
+    <view class="item" bind:tap="jumpToH5">
+      <canvas
+        style="height: 172rpx; width: 172rpx;"
+        canvas-id="kcal" 
+        ></canvas>
+        <view class="unit">kcal</view>
+    </view>
+  </view>
+  <view class="mileage" bind:tap="tap">
+    <image src="/assets/pos.png" class="pos" />
+    <view>{{I18n.t('mileage')}}: {{long}}m</view>
+  </view>
+</view>

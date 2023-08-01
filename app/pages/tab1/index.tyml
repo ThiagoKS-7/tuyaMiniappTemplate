@@ -1,0 +1,13 @@
+<view class="container">
+  <alarm class="txt"></alarm>
+  <view class="title">Lottie {{I18n.t('animation')}}:</view>
+  <canvas
+    style="height: 80rpx; width: 620rpx; marginLeft: -14rpx;marginBottom: 60rpx;"
+    canvas-id="load" 
+  ></canvas>
+  <view class="title">Canvas {{I18n.t('draw')}}:</view>
+  <canvas
+    style="height: 80rpx; width: 620rpx; marginLeft: -14rpx; marginTop: 60rpx;"
+    canvas-id="sleep" 
+  ></canvas>
+</view>

@@ -1,0 +1,14 @@
+{
+  "projectname": "teste",
+  "description": "",
+  "i18n": true,
+  "miniprogramRoot": "app/",
+  "widgetRoot": "widget/",
+  "compileType": "widget",
+  "dependencies": {
+    "BaseKit": "3.0.0",
+    "MiniKit": "3.0.0",
+    "BizKit": "3.0.1"
+  },
+  "baseversion": "2.10.12"
+}
